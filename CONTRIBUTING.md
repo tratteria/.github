@@ -12,9 +12,6 @@ To get started:
 * First, [README](/README.md) to become familiar with the Tratteria Project.
 * Make sure you're familiar with our [Coding Conventions](#conventions) when appropriate
 
-If you're new to the Tratteria Project, we recommend that you join us on the mailing lists and Slack to
-discuss any potential changes you'd like to see made.
-
 If your proposal comes under the purview of a SIG, reach out to the SIG lead and seek their feedback
 first (bugfixes and changes with minor impact don't need this). The SIG lead may refer you to the
 broader group.
