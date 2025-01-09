@@ -1,14 +1,8 @@
 ## Welcome to the Tratteria GitHub
+
+Tratteria implements a new IETF OAuth WG draft called "Transaction Tokens" (TraTs). TraTs are short-lived signed JWTs that provide immutable identity and context information in microservices call chains. By providing such immutable context, TraTs prevent attacks like software supply chain, privileged user compromise or malicious insiders, because microservices automatically deny calls that do not have such TraTs associated with them, or the parameters of the call do not match an associated, valid TraT.
+
+Tratteria is a Kubernetes-native framework designed to facilitate the adoption of TraTs in existing applications to secure their call chains. The framework consists of a TraT issuance service, a Kubernetes custom controller for configuration management, and sidecar agents for verifying TraTs. Tratteria requires applications to implement the SPIFFE for service-to-service trust. TraTs generation and verification policies for APIs are described using Kubernetes Custom Resources, allowing applications to describe their services, API endpoints, and immutable context elements (such as path and query parameters, headers, and body elements). Convenient defaults let applications reuse such policy descriptions across a number of microservices. Tratteria documentation includes a tutorial on why TraTs are required, what they are, and how to use them in existing applications. It has a quickstart guide that provides a sample application, which uses the Dex IdP for user authentication and shows the TraTs to the user. While Tratteria can operate alongside service meshes such as Istio, ongoing development aims to optimize this integration, potentially leveraging existing Istio capabilities for improved overall functionality.
+
+
 ## For more information on Tratteria, visit [tratteria.io](https://tratteria.io)
-
-
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
