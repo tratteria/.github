@@ -1,3 +1,3 @@
-# Welcome to the Tratteria GitHub
+# Welcome to the Tokenetes GitHub
 
-To learn more about Tratteria, visit [tratteria.io](https://tratteria.io)
+To learn more about Tokenetes, visit [tratteria.io](https://tratteria.io)
