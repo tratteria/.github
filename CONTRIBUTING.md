@@ -1,7 +1,7 @@
-# Contributing to the Tratteria Project
+# Contributing to the Tokenetes Project
 
-The change management process for the Tratteria Project is designed to be transparent, fair, and
-efficient. Anyone may contribute to a project in the Tratteria repositories that they have read access
+The change management process for the Tokenetes Project is designed to be transparent, fair, and
+efficient. Anyone may contribute to a project in the Tokenetes repositories that they have read access
 to, provided they:
 
 * Abide by the CNCF [code of conduct](/CODE-OF-CONDUCT.md)
@@ -9,7 +9,7 @@ to, provided they:
 
 To get started:
 
-* First, [README](/README.md) to become familiar with the Tratteria Project.
+* First, [README](/README.md) to become familiar with the Tokenetes Project.
 * Make sure you're familiar with our [Coding Conventions](#conventions) when appropriate
 
 If your proposal comes under the purview of a SIG, reach out to the SIG lead and seek their feedback
@@ -27,7 +27,7 @@ broader group.
 1. Open a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
   against the upstream `main` branch
 
-All changes to Tratteria projects must be code reviewed in a pull request (this goes for everyone, even
+All changes to Tokenetes projects must be code reviewed in a pull request (this goes for everyone, even
 those who have merge rights).
 
 ## After your pull request is submitted
@@ -44,7 +44,7 @@ Following approval, the pull request will be merged by the last maintainer to ap
 
 ## Coding Conventions <a name="conventions"></a>
 
-Generally, these are the coding conventions Tratteria projects should follow. Maintainers will consider
+Generally, these are the coding conventions Tokenetes projects should follow. Maintainers will consider
 these conventions when reviewing pull requests.
 
 * **General**
